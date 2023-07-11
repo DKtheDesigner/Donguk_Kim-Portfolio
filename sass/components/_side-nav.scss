@@ -1,0 +1,37 @@
+.nav-container {
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    background-color: white;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    gap: 1.5rem;
+
+    &--item {
+        margin-top: 2rem;
+        text-transform: uppercase;
+        transition: all .0s;
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 400;
+
+        &:hover {
+            transform: scale(1.06);
+            color: $color-black;
+        }
+    }
+
+    
+}
+
+.nav-text {
+    color: $color-grey-dark;
+
+    &:hover {
+        transform: scale(1.06);
+        color: $color-black;
+    }
+}

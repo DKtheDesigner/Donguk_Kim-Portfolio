@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+}
+
+.heading-intro {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    color: $color-grey;
+
+    animation-name: moveInLeft;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+
+}
+
+.heading-primary {
+    color: $color-black;
+
+    &--main {
+        display: block;
+        font-size: 13rem;
+        font-weight: 700;
+
+
+        animation-delay: 10s;
+        animation-duration: 1s;
+
+        &:after {
+            content: "";
+            animation: spin 9.5s linear infinite;
+        }
+
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $color-grey-darker;
+
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    }
+}
+
+.heading-text {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: $color-grey-dark;
+    margin-top: -2rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}

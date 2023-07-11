@@ -1,0 +1,12 @@
+.photo {
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.pictures {
+    height: 88vh;
+    border-radius: 3px;
+    margin-top: 7rem;
+}
