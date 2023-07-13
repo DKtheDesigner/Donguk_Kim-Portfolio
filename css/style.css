@@ -143,7 +143,8 @@ body {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  margin-top: 10rem; }
+  margin-top: 10rem;
+  margin-bottom: -5rem; }
 
 .footer-text {
   width: 62rem;
@@ -206,6 +207,10 @@ body {
   text-align: center;
   margin-top: 5rem; }
 
+.btn-btm {
+  text-align: center;
+  margin-top: -1rem; }
+
 .scroll-down-btn:link, .scroll-down-btn:visited {
   position: absolute;
   font-size: 5rem;
@@ -240,6 +245,47 @@ body {
 .feature-box-link:link, .feature-box-link:visited {
   text-decoration: none;
   color: #a1a1a1; }
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  height: auto;
+  width: 95vw;
+  margin: 0 auto;
+  margin-bottom: -1rem;
+  margin-top: -2rem;
+  padding-top: 40px;
+  color: #c1c1c1; }
+
+.footer-bottom {
+  margin: 0 auto;
+  background: #fff;
+  width: 95vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center; }
+
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize; }
+
+.footer-bottom p a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none; }
+
+.footer-menu {
+  float: right; }
+
+@media (max-width: 500px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px; } }
 
 .photo {
   display: flex;
