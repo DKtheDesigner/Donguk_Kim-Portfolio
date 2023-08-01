@@ -10,7 +10,7 @@
 .footer-text {
     width: 62rem;
     margin-left: 7rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 300;
     color: $color-grey-darker;
     padding-right: 6rem;
@@ -28,13 +28,14 @@
 
 .footer-box-menu {
     width: 50rem;
-    margin: -4rem 0 0 15rem;
+    margin: -4rem 0 0 7rem;
 }
 
 .footer-name {
     font-size: 5rem;
     font-weight: 700;
     color: $color-black;
+    margin-bottom: -1rem;
 
     &:hover {
         animation: blink .6s ease-out;
@@ -43,15 +44,16 @@
 }
 
 .footer-job {
+    margin-bottom: -2rem;
     font-weight: 400;
     color: $color-grey-darker;
 }
 
 .link-box {
+    margin-bottom: -1rem;
+    margin-top: -1.5rem;
     display: flex;
     gap: 1.5rem;
-
-
 }
 
 .link-text {
@@ -66,4 +68,12 @@
         transform: scale(1.06);
         color: $color-black;
     }
+}
+
+.footer-me {
+    color: $color-grey-darker;
+    font-weight: 300;
+    width: 40vw;
+    margin-top: 2rem;
+    font-size: 2rem;
 }
